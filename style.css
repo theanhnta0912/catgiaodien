@@ -542,6 +542,67 @@ header #hero {
     line-height: 36px;
 }
 
+#meet-our-team .testimonial {
+    margin-top: 180px;
+    justify-content: space-between;
+    padding-left: 10px;
+}
+
+#meet-our-team .testimonial >div:first-child {
+    margin-top: 156px;
+    width: 50%;
+}
+
+.testimonial >div:first-child h3 {
+    font-size: 24px;
+    line-height: 72px;
+    color: #c04ae2;
+    font-weight: 300;
+}
+
+.testimonial >div:first-child h4 {
+    font-size: 60px;
+    line-height: 90px;
+    font-weight: 300;
+}
+
+.testimonial >div:first-child p {
+    font-size: 24px;
+    line-height: 36px;
+    margin-top: 47px;
+    color: #5e5858;
+}
+
+.testimonial >div:first-child h5 {
+    font-size: 24px;
+    line-height: 48px;
+    margin-top: 50px;
+}
+
+.testimonial >div:first-child h5 .bar-line {
+    vertical-align:middle;
+    margin-right: 20px;
+}
+
+.testimonial >div:first-child h5 .bar-line img {
+    vertical-align:middle;
+    margin-right: 20px;
+}
+
+
+.testimonial >div:first-child h5 .testimonial-position {
+    margin-left: 20px;
+    color:#b3b5bf;
+
+}
+
+
+
+
+
+   
+     
+
 
     
     
