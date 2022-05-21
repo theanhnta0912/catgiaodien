@@ -137,7 +137,7 @@ header #hero {
     left: 16px;
 }
 
-#hero #page-title a  {
+.get-started  {
     height: 73px;
     line-height: 73px;
     padding: 0px 60px;
@@ -147,7 +147,15 @@ header #hero {
     color: #ffffff;
     border-radius: 10px;
     box-shadow:0px 10px 18px rgba(0,0,0,0.08) ;
+    border: 1px solid #c04ae2;
 }
+
+.get-started:hover {
+    background-color:#f9f8f9;
+    color: #000;
+    transition:background-color 1s ease-in-out;
+}
+
 
 #main {
     background: #fef4f7 url(/images/gradient-background.png) no-repeat center top;
@@ -414,7 +422,7 @@ header #hero {
 
 .section-project {
     padding-top: 190px;
-    padding-bottom: 190px;
+    padding-bottom: 223px;
 }
    
 
@@ -597,6 +605,129 @@ header #hero {
 
 }
 
+#Contact {
+    background: url(./images/background-4.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    background-color: #fff;
+}
+
+#Contact .contact-us {
+    margin-top: 108px;
+}
+
+
+    
+
+#Contact .contact-us .Write-us-a-message {
+    flex-direction: column;
+    max-width: 480px;
+}
+
+#Contact .contact-us .Write-us-a-message h3 {
+    font-size: 42px;
+    line-height: 54px;
+    font-weight: 300;
+}
+
+#Contact .contact-us input {
+    padding:25px 30px ;
+    width: 100%;
+   margin:20px 0;
+   border: none;
+   border-radius: 10px;
+   box-shadow:rgba(0,0,0,0.06) 18px 0 48px;
+}
+
+#Contact .contact-us textarea {
+    width: 100%;
+    padding: 20px;
+    margin-top:20px;
+    border: none;
+    border-radius: 10px;
+}
+
+#Contact .contact-us a {
+    margin-top: 40px;
+}
+
+#Contact .contact-us .Write-us-a-message-right {
+    margin-top: 100px;
+    margin-left: 230px;
+    min-width: 470px;
+    flex-direction: column;
+}
+
+#Contact .Write-us-a-message-right p:first-child {
+    font-size: 24px;
+    line-height: 36px;
+    text-align: justify;
+    color: #5e5858;
+}
+
+#Contact .contact-info {
+    display: flex;
+    margin-top: 20px;
+    font-size: 21px;
+    line-height: 24px;
+    margin-top: 40px;
+    max-width: 274px;
+    gap: 0 20px;
+}
+
+#Contact .Write-us-a-message-right .contact-info div:first-child{
+    display: inline-block;
+    min-width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+    
+
+
+#Contact .contact-info .phone {
+    content: '';
+    background: url(./images/contact-info/phone_number.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: #fe6686;
+}
+
+#Contact .contact-info .mail {
+    content: '';
+
+    background: url(./images/contact-info/mail.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: #54d6a1;
+}
+
+#Contact .contact-info .location {
+    content: '';
+
+    background: url(./images/contact-info/location.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: #fe9a3f;
+}
+
+#Contact .contact-info h5 {
+    font-size: 21px;
+    line-height: 24px;
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+
+#Contact .contact-info p {
+    color: #5e5858;
+}
+    
+
+
+    
+
+    
+    
 
 
 
